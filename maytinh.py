@@ -100,4 +100,9 @@ button_divide.grid(row=6,column=2)
 button_equal.grid(row=5,column=1,columnspan=2)
 button_clear.grid(row=4,column=1,columnspan=2)
 
+# tao nhan dan
+myLabel = Label(root,text="Hello World")
+# dat nhan dan vao giao dien
+myLabel.pack()
+
 root.mainloop()
